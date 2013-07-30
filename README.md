@@ -7,4 +7,6 @@ http://www.hotelesmabey.com
 
 ## Requirements
 
-[Zen]: https://drupal.org/project/ZEN
+[Zen] [1]
+
+[1]: https://drupal.org/project/ZEN
