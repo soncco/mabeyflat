@@ -1,0 +1,73 @@
+screenshot  = screenshot.png
+name        = Mabey
+description = Mabey Flat Design
+
+
+core        = 7.x
+base theme  = zen
+
+stylesheets[all][] = css/normalize.css
+stylesheets[all][] = css/mabey.css
+stylesheets[all][] = css/tabs.css
+
+; Plugins
+stylesheets[all][] = js/jquery.bxslider/jquery.bxslider.css
+stylesheets[all][] = js/uitotop/css/ui.totop.css
+
+; Plugins
+scripts[] = js/uitotop/js/easing.js
+scripts[] = js/jquery.bxslider/jquery.bxslider.min.js
+scripts[] = js/uitotop/js/jquery.ui.totop.min.js
+
+; Main
+scripts[] = js/mabey.js
+
+; Main regions
+regions[main_nav]            = Main Nav
+regions[content]             = Content
+regions[inner_picture]       = Foto Principal
+
+; Footer
+regions[footer]                  = Footer
+regions[footer_first]            = Footer First
+regions[footer_second]           = Footer Second
+regions[footer_third]            = Footer Third
+regions[footer_fourth]           = Footer Fourth
+
+
+; Home
+regions[welcome_text]         = Welcome Text
+regions[welcome_slider]       = Welcome Slider
+regions[menu_cusco]           = Menu Cusco
+regions[foto_cusco]           = Foto Cusco
+regions[texto_cusco]          = Texto Cusco
+regions[menu_urubamba]        = Menu Urubamba
+regions[foto_urubamba]        = Foto Urubamba
+regions[texto_urubamba]       = Texto Urubamba
+
+
+features[] = logo
+features[] = name
+features[] = slogan
+features[] = node_user_picture
+features[] = comment_user_picture
+features[] = favicon
+features[] = main_menu
+features[] = secondary_menu
+
+
+
+; Set the default values of settings on the theme-settings.php form.
+
+settings[zen_breadcrumb]           = yes
+settings[zen_breadcrumb_separator] = ' › '
+settings[zen_breadcrumb_home]      = 1
+settings[zen_breadcrumb_trailing]  = 1
+settings[zen_breadcrumb_title]     = 0
+settings[zen_skip_link_anchor]     = main-menu
+settings[zen_skip_link_text]       = Jump to navigation
+settings[zen_html5_respond_meta][] = respond
+settings[zen_html5_respond_meta][] = html5
+settings[zen_html5_respond_meta][] = meta
+settings[zen_rebuild_registry]     = 1
+settings[zen_wireframes]           = 0

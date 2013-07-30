@@ -1,0 +1,47 @@
+@import url("http://yui.yahooapis.com/pure/0.2.0/pure-min.css");
+@import url("http://fonts.googleapis.com/css?family=Lato");
+body{font:normal 16px/1.4em 'Lato',sans-serif;color:#444}
+a{color:#2980b9;text-decoration:none;}
+a:hover{color:#2c3e50}
+.wrapper{width:70%;margin:0 auto}
+.header{background:#383838}
+.footer{background:#ecf0f1;border-top:5px solid #bdc3c7;color:#7f8c8d;}
+.footer h3{color:#383838;text-shadow:1px 1px 1px solid #fff}
+.footer address{font-size:14px;line-height:1.5em}
+.footer-last{background:#bdc3c7;color:#95a5a6;font-size:14px;padding-top:20px;padding-bottom:20px;}
+.footer-last a{color:#95a5a6;text-decoration:none;}
+.footer-last a:hover{color:#2c3e50}
+.text-center{text-align:center}
+.text-right{text-right:right}
+.pure-menu.pure-menu-mabey{background:none;margin-top:80px;margin-left:0;}
+.pure-menu.pure-menu-mabey li{margin-right:10px;}
+.pure-menu.pure-menu-mabey li a{background:#a9986c;border-bottom:3px solid #8e7d51;border-radius:3px;color:#f9f8f5;padding-bottom:1px;padding-top:1px}
+.home-padding{padding:10px 20px}
+.welcome{background:#d3a44a;}
+.welcome h1{color:#fff;text-shadow:1px 1px 1px rgba(0,0,0,0.6);text-transform:uppercase}
+.welcome .welcome-text{color:#fff;font-size:20px;line-height:1.5em;padding:3px 15px 3px 0}
+.welcome .welcome-slider{padding:20px 30px}
+.welcome .bx-viewport{border-color:#edd29d !important;box-shadow:none !important}
+.pure-button-mabey{background:#fff;color:#383838;display:block;font-size:110%;padding-top:10px;padding-bottom:10px;text-transform:uppercase;text-shadow:1px 1px 1px rgba(0,0,0,0.6)}
+.pure-button-mabey.first{margin-bottom:15px}
+.hotel-title a{text-decoration:none;color:#383838}
+.hotel-title h1{font-size:18px;line-height:1em;text-transform:uppercase;}
+.hotel-title h1 .hotel-name{display:block;line-height:1em}
+.hotel-title h1 .cusco{color:#b05336;font-size:70px}
+.hotel-title h1 .valle{color:#6e7f4d;font-size:70px}
+.hotel-image img{padding:5px}
+.hotel-image.cusco img{background:#c57a63}
+.hotel-image.valle img{background:#a2b67b}
+.hotel-text p{color:#fff;font-size:18px;line-height:1.3em}
+.hotel-front.cusco{background:#b05336}
+.hotel-front.valle{background:#6e7f4d}
+.content li{list-style-type:square}
+.content a{font-weight:bold}
+.content strong{color:#000}
+.content h2{color:#c0392b}
+.inner-title{background:#d3a44a;}
+.inner-title h1{padding:10px 0;font-size:18px;text-transform:uppercase;font-size:40px;line-height:1em;color:#fff;margin:0 10px}
+.inner-image img{width:100%}
+@media only screen and (max-width : 960px){.wrapper{width:auto}
+.pure-menu.pure-menu-mabey{margin-left:auto;margin-top:auto}
+}
