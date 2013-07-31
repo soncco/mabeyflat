@@ -1,5 +1,6 @@
 @import url("http://yui.yahooapis.com/pure/0.2.0/pure-min.css");
 @import url("http://fonts.googleapis.com/css?family=Lato");
+@import url("//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css");
 body{font:normal 16px/1.4em 'Lato',sans-serif;color:#444}
 a{color:#2980b9;text-decoration:none;}
 a:hover{color:#2c3e50}
@@ -11,17 +12,36 @@ a:hover{color:#2c3e50}
 .footer-last{background:#bdc3c7;color:#95a5a6;font-size:14px;padding-top:20px;padding-bottom:20px;}
 .footer-last a{color:#95a5a6;text-decoration:none;}
 .footer-last a:hover{color:#2c3e50}
+.ribbon-wrapper{width:210px;height:190px;overflow:hidden;position:absolute;top:-3px;right:-3px}
+.ribbon{font-size:13px;font-weight:bold;color:#fff;text-align:center;-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-o-transform:rotate(45deg);-ms-transform:rotate(45deg);transform:rotate(45deg);position:relative;padding:7px 0;left:0;top:60px;width:260px;background:#3498db;border-bottom:3px solid #2980b9;-webkit-box-shadow:3px 3px 0 rgba(0,0,0,0.3);box-shadow:3px 3px 0 rgba(0,0,0,0.3);}
+.ribbon:before,.ribbon:after{content:"";position:absolute;bottom:-3px}
+.ribbon:before{left:0}
+.ribbon:after{right:0}
+.social{margin-top:40px;}
+.social a{margin-right:3px;color:#fff;}
+.social a.social-button{padding:13px 15px 12px 16px;display:inline-block;text-align:center;width:20px;border-bottom-width:3px;border-bottom-style:solid;-webkit-border-radius:3px;border-radius:3px}
+.social a.facebook{background:#3498db;border-color:#2980b9;}
+.social a.facebook:hover{background:#2980b9;border-color:#3498db}
+.social a.youtube{background:#e74c3c;border-color:#c0392b;}
+.social a.youtube:hover{background:#c0392b;border-color:#e74c3c}
+.social a.skype{background:#2ecc71;border-color:#27ae60;}
+.social a.skype:hover{background:#27ae60;border-color:#2ecc71}
+.relative{position:relative}
+.langs{position:absolute;top:0;right:40px;}
+.langs li{display:inline;margin-right:15px;font-size:14px}
+.langs a{color:#aaa;}
+.langs a:hover{color:#fff}
 .text-center{text-align:center}
 .text-right{text-right:right}
 .pure-menu.pure-menu-mabey{background:none;margin-top:80px;margin-left:0;}
 .pure-menu.pure-menu-mabey li{margin-right:10px;}
-.pure-menu.pure-menu-mabey li a{background:#a9986c;border-bottom:3px solid #8e7d51;border-radius:3px;color:#f9f8f5;padding-bottom:1px;padding-top:1px}
+.pure-menu.pure-menu-mabey li a{background:#a9986c;border-bottom:3px solid #8e7d51;-webkit-border-radius:3px;border-radius:3px;color:#f9f8f5;padding-bottom:1px;padding-top:1px}
 .home-padding{padding:10px 20px}
 .welcome{background:#d3a44a;}
 .welcome h1{color:#fff;text-shadow:1px 1px 1px rgba(0,0,0,0.6);text-transform:uppercase}
 .welcome .welcome-text{color:#fff;font-size:20px;line-height:1.5em;padding:3px 15px 3px 0}
 .welcome .welcome-slider{padding:20px 30px}
-.welcome .bx-viewport{border-color:#edd29d !important;box-shadow:none !important}
+.welcome .bx-viewport{border-color:#edd29d !important;-webkit-box-shadow:none !important;box-shadow:none !important}
 .pure-button-mabey{background:#fff;color:#383838;display:block;font-size:110%;padding-top:10px;padding-bottom:10px;text-transform:uppercase;text-shadow:1px 1px 1px rgba(0,0,0,0.6)}
 .pure-button-mabey.first{margin-bottom:15px}
 .hotel-title a{text-decoration:none;color:#383838}
@@ -35,6 +55,7 @@ a:hover{color:#2c3e50}
 .hotel-text p{color:#fff;font-size:18px;line-height:1.3em}
 .hotel-front.cusco{background:#b05336}
 .hotel-front.valle{background:#6e7f4d}
+.content{margin-bottom:10px;}
 .content li{list-style-type:square}
 .content a{font-weight:bold}
 .content strong{color:#000}
