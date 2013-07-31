@@ -26,6 +26,8 @@ scripts[] = js/mabey.js
 regions[main_nav]            = Main Nav
 regions[content]             = Content
 regions[inner_picture]       = Foto Principal
+regions[langs]               = Langs
+regions[extras]              = Extras
 
 ; Footer
 regions[footer]                  = Footer

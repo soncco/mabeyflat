@@ -4,7 +4,10 @@
       <div class="pure-u-1-3 logo">
         <h1><a href="<?php print $front_page; ?>"><img src="<?php print $logo; ?>" alt="<?php print $site_name; ?>"></a></h1>
       </div>
-      <div class="pure-u-2-3">
+      <div class="pure-u-2-3 relative">
+        <div class="langs">
+          <?php print render($page['langs']); ?>
+        </div>
         <nav class="pure-menu pure-menu-open pure-menu-horizontal pure-menu-mabey">
           <?php print render($page['main_nav']); ?>
         </nav>
@@ -119,3 +122,5 @@
     </div>
   </footer>
 </div>
+
+<?php print render($page['extras']) ?>
