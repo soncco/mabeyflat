@@ -33,7 +33,7 @@ a:hover{color:#2c3e50}
 .langs a:hover{color:#fff}
 .text-center{text-align:center}
 .text-right{text-right:right}
-.pure-menu.pure-menu-mabey{background:none;margin-top:80px;margin-left:0;}
+.pure-menu.pure-menu-mabey{background:none;position:absolute;top:100px;right:-130px;}
 .pure-menu.pure-menu-mabey li{margin-right:10px;}
 .pure-menu.pure-menu-mabey li a{background:#a9986c;border-bottom:3px solid #8e7d51;-webkit-border-radius:3px;border-radius:3px;color:#f9f8f5;padding-bottom:1px;padding-top:1px;}
 .pure-menu.pure-menu-mabey li a:hover{border-bottom-color:#a9986c;background:#8e7d51}

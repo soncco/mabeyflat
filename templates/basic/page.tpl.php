@@ -1,10 +1,10 @@
 <div class="pure-g-r window">
   <header class="header">
     <div class="wrapper">
-      <div class="pure-u-1-3 logo">
+      <div class="pure-u-1-5 logo">
         <h1><a href="<?php print $front_page; ?>"><img src="<?php print $logo; ?>" alt="<?php print $site_name; ?>"></a></h1>
       </div>
-      <div class="pure-u-2-3 relative">
+      <div class="pure-u-4-5 relative">
         <div class="langs">
           <?php print render($page['langs']); ?>
         </div>
