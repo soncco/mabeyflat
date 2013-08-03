@@ -29,6 +29,42 @@
       $wfci = $('.webform-container-inline');
       $wfci.remove();
 
+      // Figures.
+      $as = $('.collage a');
+
+      $figure = $('<figure></figure>').addClass('image-wrapper');
+      
+      $as.each(function() {
+        caption = $(this).find('img').attr('title');
+        $(this).attr('title', caption);
+        $(this).wrap($figure.clone().data('caption', caption));
+        console.log(caption);
+      });
+
+      // Colorbox.
+      $('.collage a').colorbox({
+        'rel': 'gal',
+        'maxWidth': '80%',
+        'maxHeight': '90%'
+      });
+
+      // Collage.
+      $('.collage').collagePlus({
+        'fadeSpeed'     : 2000,
+        'targetHeight'  : 200,
+        'effect'        : 'effect-4',
+        'direction'     : 'vertical'
+      });
+
+      $('.collage').collageCaption();
+
+      var resizeTimer = null;
+      $(window).bind('resize', function() {
+        $('.collage .image-wrapper').css("opacity", 0);
+        if (resizeTimer) clearTimeout(resizeTimer);
+        resizeTimer = setTimeout(collage, 200);
+      });
+
     }
   };
 })(jQuery);

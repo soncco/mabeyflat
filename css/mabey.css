@@ -6,6 +6,12 @@ a{color:#2980b9;text-decoration:none;-webkit-transition:color 300ms;-moz-transit
 a:hover{color:#2c3e50}
 .wrapper{width:70%;margin:0 auto}
 .header{background:#383838}
+.collage{padding:2px;}
+.collage img{margin:0;padding:0;display:inline-block;vertical-align:bottom;opacity:1;-ms-filter:none;filter:none;border:6px solid #ecf0f1}
+.collage a:hover img{border-color:#bdc3c7}
+.image-wrapper{opacity:0;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";filter:alpha(opacity=0);-webkit-box-shadow:0 2px 4px rgba(0,0,0,0.1);box-shadow:0 2px 4px rgba(0,0,0,0.1);-webkit-border-radius:3px;border-radius:3px}
+.Caption{font-size:14px;font-weight:normal}
+.Caption_Content{color:#fff;padding:4px}
 .footer{background:#ecf0f1;border-top:5px solid #bdc3c7;color:#7f8c8d;}
 .footer h3{color:#383838;text-shadow:1px 1px 1px solid #fff}
 .footer address{font-size:14px;line-height:1.5em}
