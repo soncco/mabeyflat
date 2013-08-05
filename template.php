@@ -1,12 +1,22 @@
 <?php
-/*
-if(drupal_is_front_page()) {
-  $options = array(
-    'group'  => CSS_THEME,
-    'weight' => 10,
-    'preprocess' => FALSE
-  );
-  drupal_add_css(drupal_get_path('theme', 'mabeyflat') . "/js/jquery.bxslider/jquery.bxslider.css", $options);
-  drupal_add_js(drupal_get_path('theme', 'mabeyflat') . "/js/jquery.bxslider/jquery.bxslider.min.js");
+
+/**
+ * Override or insert variables into the page template for HTML output.
+ */
+function mabeyflat_process_html(&$variables) {
+  // Hook into color.module.
+  if (module_exists('color')) {
+    _color_html_alter($variables);
+  }
 }
-*/
+
+/**
+ * Override or insert variables into the page template.
+ */
+function mabeyflat_process_page(&$variables) {
+  // Hook into color.module.
+  if (module_exists('color')) {
+    _color_page_alter($variables);
+    //print_r($variables);
+  }
+}

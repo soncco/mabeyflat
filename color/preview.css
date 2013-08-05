@@ -1,0 +1,19 @@
+
+/* ---------- Color form ----------- */
+#color_scheme_form #palette .form-item {
+  width: 25em;
+}
+#color_scheme_form #palette .form-item label {
+  width: 15em;
+}
+
+/* ---------- Preview Styles ----------- */
+
+html.js #preview {
+  clear: both;
+  float: none !important;
+}
+@import url("http://yui.yahooapis.com/pure/0.2.0/pure-min.css");
+@import url("http://fonts.googleapis.com/css?family=Lato");
+.inner-title{background:#d3a44a;}
+.inner-title h1{font-family:'Lato',sans-serif;padding:10px 0;font-size:18px;text-transform:uppercase;font-size:40px;line-height:1em;color:#fff;margin:0 10px}
