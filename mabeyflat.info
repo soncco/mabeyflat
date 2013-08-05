@@ -13,16 +13,15 @@ stylesheets[all][] = css/tabs.css
 ; Plugins
 stylesheets[all][] = js/jquery.bxslider/jquery.bxslider.css
 stylesheets[all][] = js/uitotop/css/ui.totop.css
-stylesheets[all][] = js/jquery-collagePlus/css/transitions.css
 stylesheets[all][] = js/colorbox/example3/colorbox.css
+stylesheets[all][] = js/Justified-Gallery/css/jquery.justifiedgallery.min.css
 
 ; Plugins
 scripts[] = js/uitotop/js/easing.js
 scripts[] = js/jquery.bxslider/jquery.bxslider.min.js
 scripts[] = js/uitotop/js/jquery.ui.totop.min.js
-scripts[] = js/jquery-collagePlus/extras/jquery.collageCaption.min.js
-scripts[] = js/jquery-collagePlus/jquery.collagePlus.min.js
 scripts[] = js/colorbox/jquery.colorbox-min.js
+scripts[] = js/Justified-Gallery/js/jquery.justifiedgallery.min.js
 
 ; Main
 scripts[] = js/mabey.js
