@@ -36,7 +36,7 @@
     <div class="wrapper">
       <div class="pure-u-3-8">
         <h1>
-          <a href="">Hotel Mabey<span class="hotel-name cusco">Cusco</span></a>
+          <a href="http://imperial.hotelesmabey.com">Hotel Mabey<span class="hotel-name cusco">Cusco</span></a>
         </h1>
       </div>
       <div class="pure-u-5-8">
@@ -67,7 +67,7 @@
     <div class="wrapper">
       <div class="pure-u-3-8">
         <h1>
-          <a href="">Hotel Mabey<span class="hotel-name valle">Urubamba</span></a>
+          <a href="http://vallesagrado.hotelesmabey.com">Hotel Mabey<span class="hotel-name valle">Urubamba</span></a>
         </h1>
       </div>
       <div class="pure-u-5-8">
