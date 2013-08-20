@@ -1,20 +1,20 @@
 @import url("http://yui.yahooapis.com/pure/0.2.0/pure-min.css");
-@import url("http://fonts.googleapis.com/css?family=Lato");
 @import url("//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css");
 body{font:normal 16px/1.4em 'Lato',sans-serif;color:#444}
 a{color:#2980b9;text-decoration:none;-webkit-transition:color 300ms;-moz-transition:color 300ms;-o-transition:color 300ms;-ms-transition:color 300ms;transition:color 300ms;}
 a:hover{color:#2c3e50}
-.wrapper{width:70%;margin:0 auto}
+.wrapper{width:80%;margin:0 auto}
 .header{background:#383838}
 .collage{padding:2px;}
 .collage img{margin:0;padding:0;display:inline-block;vertical-align:bottom;opacity:1;-ms-filter:none;filter:none;border:6px solid #ecf0f1}
 .collage a:hover img{border-color:#bdc3c7}
 .image-wrapper{opacity:0;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";filter:alpha(opacity=0);-webkit-box-shadow:0 2px 4px rgba(0,0,0,0.1);box-shadow:0 2px 4px rgba(0,0,0,0.1);-webkit-border-radius:3px;border-radius:3px}
-.Caption{font-size:14px;font-weight:normal}
-.Caption_Content{color:#fff;padding:4px}
+.Caption{font-size:14px;font-weight:normal;font-family:arial}
+.Caption_Content{color:#fff;padding:20px}
 .footer{background:#ecf0f1;border-top:5px solid #bdc3c7;color:#7f8c8d;}
 .footer h3{color:#383838;text-shadow:1px 1px 1px solid #fff}
 .footer address{font-size:14px;line-height:1.5em}
+.footer .menu li{display:inline;margin-right:3px}
 .footer-last{background:#bdc3c7;color:#95a5a6;font-size:14px;padding-top:20px;padding-bottom:20px;}
 .footer-last a{color:#95a5a6;text-decoration:none;}
 .footer-last a:hover{color:#2c3e50}
@@ -39,9 +39,9 @@ a:hover{color:#2c3e50}
 .langs a:hover{color:#fff}
 .text-center{text-align:center}
 .text-right{text-right:right}
-.pure-menu.pure-menu-mabey{background:none;position:absolute;top:100px;right:-130px;}
+.pure-menu.pure-menu-mabey{background:none;position:absolute;top:100px;right:10px;width:auto;}
 .pure-menu.pure-menu-mabey li{margin-right:10px;}
-.pure-menu.pure-menu-mabey li a{background:#a9986c;border-bottom:3px solid #8e7d51;-webkit-border-radius:3px;border-radius:3px;color:#f9f8f5;padding-bottom:1px;padding-top:1px;}
+.pure-menu.pure-menu-mabey li a{background:#a9986c;border-bottom:3px solid #8e7d51;-webkit-border-radius:3px;border-radius:3px;color:#f9f8f5;padding-bottom:1px;padding-top:1px;padding-right:13px;padding-left:13px;font-size:13px;}
 .pure-menu.pure-menu-mabey li a:hover{border-bottom-color:#a9986c;background:#8e7d51}
 .home-padding{padding:10px 20px}
 .welcome{background:#d3a44a;}
